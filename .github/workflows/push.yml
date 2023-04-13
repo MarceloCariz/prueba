@@ -1,7 +1,7 @@
 on: push
 name: deploy
 jobs:
-  deploy:
+  deploy-to-cluster:
     name: deploy to cluster
     runs-on: ubuntu-latest
     steps:
